@@ -1,0 +1,36 @@
+body {
+    /* background-color: rgb(227 239 236); */
+}
+
+.class1 {
+    /* background: lightgray; */
+    border: 3px solid rgb(91, 98, 204);
+    width: 300px;
+    height: auto;
+    padding: 2px 40px 4px 40px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+h3 {
+    /* color: rgb(58, 98, 209); */
+    text-align: center;
+}
+
+.class1 #XX1 {
+    position: relative;
+    top: 0px;
+    left: 103%;
+    border: none;
+    background-color: white;
+}
+
+.class1 #XX1 a {
+    text-decoration: none;
+}
+
+.class1 #XX1:hover {
+    border: 1px solid black;
+    background: red;
+}

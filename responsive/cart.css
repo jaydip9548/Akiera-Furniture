@@ -1,0 +1,30 @@
+.box {
+    /* border: 2px solid green; */
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 0px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+
+/* 
+body {
+    background-color: green;
+} */
+
+.box1 #boxbox img {
+    width: 130px;
+    height: 150px;
+}
+
+.box1 {
+    width: 352px;
+}
+
+.box2 #p {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+}

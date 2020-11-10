@@ -1,0 +1,82 @@
+header {
+    position: relative;
+}
+
+#dropdown1 {
+    position: absolute;
+    left: 31%;
+    min-width: 35%;
+}
+
+.ele,
+.ele img {
+    overflow: hidden;
+}
+
+
+/* NavBar */
+
+nav {
+    height: auto;
+}
+
+ul {
+    flex-direction: column;
+}
+
+ul .logo {
+    width: 100%;
+    text-align: center;
+}
+
+ul .menu {
+    width: auto;
+}
+
+ul .menu li a {
+    padding: 1px 0px 1px 1px;
+    ;
+}
+
+ul .button {
+    width: auto;
+}
+
+
+/* What's Special in Furniture */
+
+.ele img {
+    overflow: hidden;
+    width: 329px;
+    /* transition: unset; */
+}
+
+.lastTitle .second {
+    margin-top: 9px;
+}
+
+#myUL {
+    position: absolute;
+    min-width: 66%;
+    left: 0%;
+    margin-top: 6%;
+    top: 114px;
+}
+
+.container {
+    width: 92%;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+}
+
+.searchBar #search {
+    width: 164px;
+}
+
+.thank {
+    top: 37%;
+    left: 19%;
+}

@@ -1,0 +1,64 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.title {
+    text-align: center;
+    margin: 5px;
+}
+
+.title h2 {
+    padding: 10px;
+    font-size: 32px;
+}
+
+.box {
+    display: inline-block;
+    /* width: 24.5%; */
+    background-color: white;
+    border-radius: 8px;
+    margin: 3px 10px 13px 10px;
+}
+
+.con {
+    padding: 17px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.con .p1 {
+    padding: 5px;
+    border: 2px solid rgb(146, 128, 128);
+    position: relative;
+    background-color: rgb(225, 248, 237);
+    text-align: center;
+    /* display: inline-block; */
+    width: 30%;
+}
+
+.con .p1 a {
+    text-decoration: none;
+    color: rgb(111, 119, 122);
+}
+
+.con .p1 a:hover {
+    color: rgb(63, 64, 65);
+    cursor: pointer;
+}
+
+.con img:hover {
+    cursor: pointer;
+}
+
+.photo {
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.con {
+    text-align: center;
+    /* border: 2px solid red; */
+}

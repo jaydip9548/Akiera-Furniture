@@ -1,0 +1,32 @@
+.container {
+    border: 2px solid black;
+    width: 402px;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.container form {
+    margin: 10px;
+}
+
+input[type='email'] {
+    width: 357px;
+}
+
+input[type='submit'] {
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid rgb(180, 173, 173);
+}
+
+input[type='submit']:hover {
+    background-color: rgb(102, 102, 233);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

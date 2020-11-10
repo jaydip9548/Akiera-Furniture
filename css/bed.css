@@ -1,0 +1,13 @@
+.photo .con {
+    width: 306px;
+}
+
+.con {
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+.con .p1 {
+    margin-left: 30%;
+    font-family: 'Ubuntu', sans-serif;
+}

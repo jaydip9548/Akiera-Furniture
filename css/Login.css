@@ -1,0 +1,111 @@
+        .container {
+            width: 26%;
+            border: 2px solid rgb(59, 56, 56);
+            box-shadow: rgb(133, 124, 124) 2px 2px;
+            width: 367px;
+            margin-top: 50px;
+        }
+        
+        .box1 {
+            /* border: 2px solid black; */
+            margin: 4px 0px 4px 0px;
+        }
+        
+        .box1 .first1,
+        .first2 {
+            display: inline-block;
+        }
+        
+        .box .first1 {
+            width: 91%;
+            text-align: center;
+            font-weight: bold;
+            margin: 2px 0px 4px 0px;
+            font-size: 20px;
+        }
+        
+        .first2 button {
+            border: none;
+            background-color: white;
+        }
+        
+        .first2 button a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .first2 button:hover {
+            border-radius: 2px;
+            background-color: red;
+            cursor: pointer;
+        }
+        /* Form */
+        
+        .second form {
+            padding: 10px;
+            margin-top: 10px;
+        }
+        
+        span[id="forgot"] {
+            /* display: block; */
+            float: right;
+            /* border: 2px solid rebeccapurple; */
+        }
+        
+        input[type="submit"]:hover {
+            background-color: rgb(110, 240, 110)
+        }
+        
+        input[type="submit"] {
+            width: 100%;
+            color: whitesmoke;
+            background-color: rgb(34, 226, 34);
+            border-radius: 6px;
+            height: 31px;
+        }
+        
+        .second {
+            margin: 4px 0px 4px 0px;
+            border: 2px solid #b3abab;
+            ;
+        }
+        
+        button[id="google"] {
+            width: 120px;
+            background-image: linear-gradient(to bottom, #f51e0b, #f51e0b);
+            color: white;
+            height: 31px;
+            border-radius: 5px;
+        }
+        
+        button[id="google"] a {
+            text-decoration: none;
+        }
+        
+        button[id="facebook"] a {
+            text-decoration: none;
+        }
+        
+        button a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        button[id="facebook"] {
+            width: 120px;
+            background-color: rgb(141, 106, 240);
+            color: white;
+            height: 31px;
+            border-radius: 5px;
+        }
+        
+        button[id="google"],
+        input[type="submit"] {
+            display: inline-block;
+            /* display: flex; */
+            justify-content: space-around;
+        }
+        
+        .third {
+            padding: 10px;
+        }

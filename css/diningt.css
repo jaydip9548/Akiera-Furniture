@@ -1,0 +1,12 @@
+.photo .con {
+    width: 337px;
+}
+
+.con {
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+.con .p1 {
+    margin-left: 30%;
+}

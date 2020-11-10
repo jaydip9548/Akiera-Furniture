@@ -1,0 +1,45 @@
+nav {
+    height: auto;
+}
+
+ul {
+    flex-direction: column;
+}
+
+ul .logo {
+    width: 100%;
+    text-align: center;
+}
+
+ul .menu {
+    width: auto;
+    /* border: 2px solid black; */
+    position: relative;
+    left: -6px;
+}
+
+ul .menu li a {
+    padding: 1px 3px 1px 1px;
+}
+
+ul .button {
+    width: auto;
+}
+
+.dropdown {
+    /* position: absolute; */
+    min-width: 35%;
+    /* left: 24%; */
+}
+
+#myUL {
+    display: none;
+    position: absolute;
+    min-width: 56%;
+    top: 138px;
+    left: 9%;
+}
+
+ul .button #search {
+    width: 162px;
+}

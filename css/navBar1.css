@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+}
+
+header {
+    top: 0;
+    z-index: 1;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: rgb(187, 185, 180);
+}
+
+ul {
+    display: flex;
+    padding: 13px;
+    /* flex-wrap: wrap; */
+}
+
+ul .logo {
+    width: 15%;
+    /* height: 2em; */
+    float: left;
+}
+
+ul .logo:hover {
+    cursor: pointer;
+}
+
+ul .menu {
+    display: flex;
+    width: 55%;
+    justify-content: center;
+    margin-top: 9px;
+}
+
+ul .menu li {
+    padding-top: 5px;
+    list-style: none;
+}
+
+ul .menu li a {
+    padding: 5px 37px 5px 36px;
+    margin: 2px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(250, 250, 250);
+}
+
+ul .menu li #dd {
+    padding: 5px 0px 5px 0px;
+    margin: 2px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(250, 250, 250);
+}
+
+ul .menu li #dd:hover {
+    color: blue;
+}
+
+ul .menu li a:hover {
+    color: blue;
+    border-bottom: 4px solid blue;
+}
+
+ul .button {
+    width: 30%;
+    margin-top: 9px;
+    height: auto;
+}
+
+ul .button input,
+button,
+span {
+    float: right;
+}
+
+ul .btn {
+    padding: 5px;
+    margin: 2px;
+    background-color: rgb(239 241 245);
+}
+
+ul .btn:hover {
+    cursor: pointer;
+    background-color: rgb(66, 119, 243);
+    color: white;
+}
+
+ul .button #search {
+    padding: 5px;
+    margin: 2px;
+}
+
+ul .button span {
+    /* border: 2px solid green; */
+    padding: 5px 13px 0px 13px;
+}
+
+ul .button span:hover {
+    cursor: pointer;
+}
+
+
+/* Dropdown */
+
+.dropdown {
+    display: block;
+    border: 2px solid black;
+    height: auto;
+    min-width: 70%;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+}
+
+.dropdown li {
+    display: inline-block;
+    margin: 2px;
+    /* padding-bottom: 5px; */
+    position: relative;
+    line-height: 21px;
+    display: block;
+}
+
+.dropdown li #dd:hover {
+    border-bottom: unset;
+}
+
+.menu #a1:hover .dropdown {
+    display: block;
+    position: relative;
+    background-color: rgb(167, 164, 164);
+    color: black;
+    /* z-index: 555; */
+}
+
+.dropdown li {
+    /* padding: 3px 22px; */
+    text-align: center;
+}
+
+ul .button a,
+button,
+input {
+    float: right;
+}
+
+.button .btn {
+    padding: 5px;
+    margin: 2px;
+    background-color: rgb(239 241 245);
+}
+
+.button .btn:hover {
+    cursor: pointer;
+    background-color: rgb(66, 119, 243);
+    color: white;
+}
+
+.button .searchBar {
+    margin-top: 1.2px;
+    margin-left: 10px;
+    margin-right: 35%;
+}
+
+.button .searchBar button,
+input {
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.searchBar button i {
+    /* padding: 10px; */
+    padding: 0px 3px 0px 3px;
+}
+
+.searchBar button:hover {
+    cursor: pointer;
+}
+
+.button .searchBar #search {
+    width: 176px;
+    /* background-color: black; */
+}
+
+#myUL {
+    /* float: unset; */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* display: none; */
+    display: block;
+    display: none;
+    /* width: 100%; */
+    position: relative;
+    top: 73%;
+    left: 30px;
+    z-index: 1;
+}
+
+#myUL #li1 {
+    width: 80%;
+    /* display: none; */
+}
+
+#myUL #li1 a {
+    width: 84%;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+}
+
+#myUL #li1 a:hover {
+    background-color: #eee;
+}

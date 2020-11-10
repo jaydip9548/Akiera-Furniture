@@ -1,0 +1,63 @@
+    body {
+        background-color: #f8f9fa;
+    }
+    
+    .container {
+        border: none;
+        display: inline-block;
+    }
+    
+    .box {
+        /* border: 2px solid green; */
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+        width: 700px;
+    }
+    
+    .box1 {
+        width: 600px;
+        /* border: 2px solid red; */
+        height: auto;
+        background-color: white;
+    }
+    
+    .box1 #boxbox {
+        display: flex;
+    }
+    
+    .box1 #boxbox div,
+    img {
+        margin: 10px;
+    }
+    
+    .box2 {
+        height: auto;
+        background-color: white;
+        width: 300px;
+    }
+    
+    .box2 #order {
+        float: left;
+        padding: 5px;
+        width: 100px;
+        margin-bottom: 19px;
+        /* height: 20px; */
+    }
+    
+    .box2 #order:hover {
+        cursor: pointer;
+    }
+    
+    .jaydip {
+        display: flex;
+    }
+    
+    .container1 {
+        margin-left: 30px;
+    }
+    /* input[name='remove'] {
+   
+} */

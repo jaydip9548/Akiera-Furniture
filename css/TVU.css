@@ -1,0 +1,23 @@
+.con img {
+    width: 250px;
+}
+
+.con {
+    width: 330px;
+}
+
+.con {
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+.con .p1 {
+    margin-left: 30%;
+    border-radius: 6px;
+}
+
+.con .p1 a {
+    text-decoration: none;
+    color: rgb(111, 119, 122);
+    ;
+}
